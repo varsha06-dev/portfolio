@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — ML & Full-Stack Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-name">Your Name</span>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">// hello world</p>
+    <h1>
+      Building things at the<br />
+      intersection of <span class="accent">data</span><br />
+      and <span class="accent">software</span>.
+    </h1>
+    <p class="hero-sub">
+      MS CS student · <span id="typewriter"></span><span class="cursor">|</span>
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View my work</a>
+      <a href="resume.pdf" class="btn-secondary" target="_blank">Resume ↗</a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="eyebrow">// projects</p>
+    <div class="project-list">
+
+      <div class="project-row">
+        <div class="project-meta">
+          <span class="project-num">01</span>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">NLP</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h2 class="project-title">
+            <a href="#" target="_blank">Sentiment Analysis Pipeline</a>
+          </h2>
+          <p class="project-desc">
+            Fine-tuned a BERT-based model on domain-specific data to classify sentiment in financial news. Achieved 91% accuracy — a 7-point improvement over the baseline. Built a FastAPI endpoint for real-time inference.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">GitHub ↗</a>
+            <a href="#" target="_blank">Demo ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-meta">
+          <span class="project-num">02</span>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h2 class="project-title">
+            <a href="#" target="_blank">Full-Stack Task Manager</a>
+          </h2>
+          <p class="project-desc">
+            A collaborative project management app with real-time updates via WebSockets. Features JWT auth, role-based permissions, and a REST API. Deployed on Railway with a CI/CD pipeline.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">GitHub ↗</a>
+            <a href="#" target="_blank">Live ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-meta">
+          <span class="project-num">03</span>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h2 class="project-title">
+            <a href="#" target="_blank">Housing Price Predictor</a>
+          </h2>
+          <p class="project-desc">
+            End-to-end ML project: data cleaning, feature engineering, model selection, and hyperparameter tuning. Compared XGBoost, Random Forest, and Ridge Regression; documented findings in a Jupyter notebook.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">GitHub ↗</a>
+            <a href="#" target="_blank">Notebook ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="eyebrow">// skills</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Machine Learning & AI</h3>
+        <div class="skill-tags">
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Hugging Face</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Computer Vision</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Data & Analytics</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Jupyter</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Full-Stack</h3>
+        <div class="skill-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools & Infra</h3>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux</span>
+          <span class="tag">AWS</span>
+          <span class="tag">CI/CD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="eyebrow">// about</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a CS grad student passionate about applying machine learning to real-world problems — from NLP to predictive modeling. I also enjoy building the full-stack systems that bring those models to life.
+        </p>
+        <p>
+          Previously: [Your undergrad / experience here]. Currently pursuing my MS at [University]. When I'm not coding, I'm probably reading papers on [your interest] or [hobby].
+        </p>
+        <p>
+          Open to internships, research collaborations, and interesting conversations.
+        </p>
+      </div>
+      <div class="about-facts">
+        <div class="fact">
+          <span class="fact-label">// currently</span>
+          <span>MS Computer Science, [University] · 2025–2027</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">// location</span>
+          <span>United States</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">// interests</span>
+          <span>ML, NLP, Full-Stack, Open Source</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="eyebrow">// contact</p>
+    <h2 class="contact-heading">Let's talk.</h2>
+    <p class="contact-sub">I'm currently looking for internships and research opportunities for 2025–2026.</p>
+    <div class="contact-links">
+      <a href="mailto:you@email.com" class="btn-primary">Email me</a>
+      <a href="https://linkedin.com/in/yourhandle" target="_blank" class="btn-secondary">LinkedIn ↗</a>
+      <a href="https://github.com/yourhandle" target="_blank" class="btn-secondary">GitHub ↗</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>Built with HTML, CSS & JS · © 2025 Your Name</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
